@@ -9,7 +9,8 @@
 # 2017-04-01
 
 import RPi.GPIO as GPIO                                           
-import time                                                       
+import time
+# We need to import the Adafruit Bme library for this to work
 from Adafruit_BME280 import *
 
 # Changing the mode to BOARD (pin number on the board)
@@ -28,7 +29,7 @@ while True:
 		degrees = sensor.read_temperature()                       
 		fah = 9.0/5.0 * degrees + 32
 			  
-		pascals = sensor.read_pressure()                          
+		pascals = sensor.read_pressure()
 		hectopascals = pascals / 100                              
 			
 		humidity = sensor.read_humidity()                         
