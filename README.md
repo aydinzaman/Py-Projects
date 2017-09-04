@@ -3,11 +3,9 @@ There will be videos tied to each project here: https://www.youtube.com/channel/
 
 Following are the pre-reqs for getting the BME sensor to work
 ----------------------------------------------------------------
-<ul>
-    <ol>sudo apt-get update</ol>
-    <ol>sudo apt-get install build-essential python-pip python-dev python-smbus git</ol>
-    <ol>git clone https://github.com/adafruit/Adafruit_Python_GPIO.git</ol>
-    <ol>cd Adafruit_Python_GPIO</ol>
-    <ol>sudo python setup.py install</ol>
-</ul>
+1. sudo apt-get update
+2. sudo apt-get install build-essential python-pip python-dev python-smbus git
+3. git clone https://github.com/adafruit/Adafruit_Python_GPIO.git
+4. cd Adafruit_Python_GPIO
+5. sudo python setup.py install
 
